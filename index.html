@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevFlow - Task Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>DevFlow</h1>
+        <p>O projeto "DevFlow" é um Task Tracker (rastreador de tarefas) 
+        criado para ajudar desenvolvedores a gerenciar suas atividades 
+        de forma simples e eficiente. Ele serve para organizar o fluxo de trabalho,
+        algo essencial no dia a dia de quem desenvolve software, 
+        onde é comum lidar com múltiplas tarefas como corrigir bugs,
+        implementar novas funcionalidades ou estudar tecnologias.
+        </p>
+    </header>
+
+    <section id="task-form">
+        <h2>Adicionar Tarefa</h2>
+        <form id="form">
+            <input type="text" id="task-input" placeholder="Digite sua tarefa..." required>
+            <button type="submit">Adicionar</button>
+        </form>
+    </section>
+
+    <section id="task-list">
+        <h2>Suas Tarefas</h2>
+        <ul id="tasks"></ul>
+    </section>
+
+    <!-- Div para a mensagem de parabéns -->
+    <div id="congrats-message" class="congrats-hidden"></div>
+
+    <footer>
+        <p>© 2025 Feito por Matheus Junior Marques</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
